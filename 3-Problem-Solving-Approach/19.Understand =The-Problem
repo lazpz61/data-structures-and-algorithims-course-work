@@ -1,0 +1,44 @@
+Problem Solving
+1) understanding the problem. 
+    -Before you start white boarding make sure that you are asking questions about the questions.
+
+Questions to ask yourself!!!
+
+- Can I restate the problem in my own words. 
+
+- What are the inputs the go into the problem?
+
+- What are the outputs that should come from the solution to thr Problem
+
+- Can the outpus be determined from the inputs? Do I have enough information to solve the problemn. 
+
+- How should I label the important pieces of data that are a part of the problem.
+
+Write a function which takes two numbers an returns their sum?
+
+
+using the top approach
+- Can I restate the problem in my own words. 
+
+implement addition
+
+- What are the inputs the go into the problem?
+
+integer, or float, is an array that reduces?
+
+- What are the outputs that should come from the solution to thr Problem
+
+What should be result be?
+
+- Can the outputs be determined from the inputs? Do I have enough information to solve the problemn. 
+
+This is something that you would want to ask your interviewer, or look for any information?
+
+- How should I label the important pieces of data that are a part of the problem.
+
+
+function sum(num1,num2) {
+  return num1+=num2;
+}
+
+sum(3,15);
