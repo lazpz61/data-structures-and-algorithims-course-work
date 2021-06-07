@@ -38,7 +38,7 @@ function validAnagram(first, second) {
     const lookup = {};
 
     for (let i= 0; i <first.length; i++){
-        let letter = firts[i];
+        let letter = first[i];
         // if letter exists, incremenet, otherwise set to 1
         lookup[letter] ? lookup[letter] += 1 : lookup[letter] = 1;
     }
@@ -53,3 +53,10 @@ function validAnagram(first, second) {
     }
     return true;
 }
+
+
+/* Anytime we have multiple pieces of data and we need to compare them, and
+you need to see if they consists of the same individual pieces, if one arraty is equal to anothe rarray squared
+the orders of the applications matter as well. 
+
+*/
