@@ -1,4 +1,4 @@
-// Supposed we want to write a function that calculares the sum of all numbers from 1 up to (and including) some number n
+// Supposed we want to write a function that calculates the sum of all numbers from 1 up to (and including) some number n
 
 function count(n){
     let counter = 0
@@ -26,7 +26,7 @@ console.log(`Time elapsed: ${(t2-t1) / 1000} seconds.`)
 
 /* Problem with Time
 
-- differen machines will record different times. margins can change.
+- different machines will record different times. margins can change.
 -same machine will record different times!
 - for fast algorithims, speed measurement may not be precise enough.
 
