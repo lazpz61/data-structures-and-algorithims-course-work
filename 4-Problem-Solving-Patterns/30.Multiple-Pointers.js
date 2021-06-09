@@ -4,7 +4,7 @@ Multiple Pointers
 - creating pointers or values that correspond to an index or position and move towards the beginning,
 end or middle based on a certain condition
 
-very efficient for solving problems with minimal space complexity asa well. 
+very efficient for solving problems with minimal space complexity as well. 
 
 */
 
@@ -26,3 +26,22 @@ function sumZero(arr) {
     }
 }
 
+// Refactored Approach
+
+
+// A do while loop is used because there is a comparison with the last index and the first index in the array. 
+
+function sumZero(arr){
+    let left  = 0;
+    let right = arr.length -1;
+    while(left < right) {
+        let sum = arr[left] + arr[right];
+        if(sum === 0) {
+            return [arr[left], arr[right]];
+        } else if (sum > 0) {
+            right--;
+        } else {
+            left++;
+        }
+    }
+}

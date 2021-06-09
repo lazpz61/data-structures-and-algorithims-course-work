@@ -1,6 +1,6 @@
 // Time complexity is the runtime.
 
-// Space Complexity =  how much additional memory do we need to allocate in order to run the code in oiur algorithim.
+// Space Complexity =  how much additional memory do we need to allocate in order to run the code in our algorithim.
 
 // Aucxiliary Space Complexity refers to space required by the algorithm, not including space taken up be the inputs.Aucxiliary
 
