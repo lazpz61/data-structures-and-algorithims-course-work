@@ -1,6 +1,6 @@
-/* If not tim then what?
+/* If not time then what?
 
-Counting the numner of simple operation the computer has to perform 
+Counting the numner of simple operations the computer has to perform 
 instead of counting the seconds which are so variable. 
 
 The time it takes to run a program will always be determined by the number of operations it takes 

@@ -8,7 +8,7 @@ The frequency of value must be the same.
 
 function same(arr1,arr2){
     if(arr1.length !== arr2.length) {
-        return false; // idf the two arrays are not the same length then this is placed for elimination
+        return false; // if the two arrays are not the same length then this is placed for elimination
     }
     for (let i= 0; i < arr1.length; i++){
         let correctIndex = arr2.indexOf(arr1[i] ** 2) // this is setting a variable for each iteration of arr1 and squaring it
