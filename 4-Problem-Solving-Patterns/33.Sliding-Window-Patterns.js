@@ -9,7 +9,7 @@ Usefull for keeping track of a subset of data in an array/string etc.
 */
 
 "hellothere"
-// how to find the largest unirue 
+// how to find the largest unique 
 
 /*
 
