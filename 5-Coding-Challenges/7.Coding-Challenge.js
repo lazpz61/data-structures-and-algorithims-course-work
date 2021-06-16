@@ -2,7 +2,7 @@
 // Sliding Windows -  findLongestSubstring
 
 /*
-Write a function called findLongestSubstring which accpets a string and returns the length of the longest
+Write a function called findLongestSubstring which accepts a string and returns the length of the longest
 substring with all distinct characters
 */
 
