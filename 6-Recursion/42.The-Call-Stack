@@ -1,0 +1,25 @@
+In almost all program languages, there is a built in data structure that manages what happens when a function in invoked.
+This is called the Call Stack. 
+
+The Call Stack 
+
+
+
+- whena  function is invoked it is placed on the top of the call stack. (pushed)
+- When JS see's the return keyword or when the function ends, the compiler will remove(pop)
+
+
+
+Picking a random set of items 
+
+
+let items =  [ "Oatmeal","Eggs","Protein Shake"]
+
+return items[Math.floor(Math.random()*items,length)];
+
+Why Care?
+
+Your used to function being pushed on the calll stack and popped off when they are done.
+
+When we write recursive functions we keep pushing new function onto the call stack!
+

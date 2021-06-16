@@ -1,0 +1,14 @@
+What is recursion -  A Process ( a function) that calls itself. 
+
+
+Certain Recrusive methods.
+
+- JSON.parse / JSON.stringify
+- document.getElementById and DOM traversal
+- Object traversal
+- Will be seen in more complex data structures
+- cleaner alternative to iteration.
+
+
+
+

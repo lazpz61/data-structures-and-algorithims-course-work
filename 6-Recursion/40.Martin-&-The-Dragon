@@ -1,0 +1,32 @@
+We can solve a problem either Iteratively or Recursively.
+
+Recursion is the idea that a function is doing one function at a time while decreasing the list it is given
+so as to shrink the list of data into a single answer instead of a whole list. 
+
+example: check if there are any odd numbers in this list
+
+function will check to see if the first number in the list is odd. 
+
+(3142 5798 6550 5914) - no odds
+     (5798 6550 5914) - no odds
+          (6550 5914) - no odds
+               (5914) - no odds
+
+taking one problem and doing it over ad over until you reach a smaller piece.
+
+Call Stack, Helper Method, Recrusion, and Pure Recursion.
+
+Recurse - means to call itself forever
+
+
+Recursion is whena function calls itself until someone stops it.
+
+It can be used instead of a loop.
+
+If no one stops it, it'll recurse forever and crash your program.
+
+A Base Case is a condition that stops the recrustion. Dont forget to add them.
+
+Loops are ectra state variables for tracking and counting, while recursion only used the provided parameters. 
+
+
