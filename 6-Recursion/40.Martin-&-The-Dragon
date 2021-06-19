@@ -19,7 +19,7 @@ Call Stack, Helper Method, Recrusion, and Pure Recursion.
 Recurse - means to call itself forever
 
 
-Recursion is whena function calls itself until someone stops it.
+Recursion is when a function calls itself until someone stops it.
 
 It can be used instead of a loop.
 
