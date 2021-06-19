@@ -1,0 +1,3 @@
+stay away from console.log and use return inside the function to make the recursion work, otherwise it will
+exceed the call stack. What will occur is a stack overflow. 
+

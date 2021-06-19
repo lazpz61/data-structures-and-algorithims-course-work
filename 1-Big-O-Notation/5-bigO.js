@@ -7,14 +7,14 @@ way of generalizing code, and compare to other peices of code.
 
 // Write a function that acceps a string input and returns a reversed copy
 
-function stringReverse(string) {
-    let splitString = string.split("");
-    let reversedString = splitString.reverse();
-    let joinedString = reversedString.join("");
-    return joinedString;
+function wordReverse(word) {
+    let splitWord = string.split("");
+    let reversedWord = splitWord.reverse();
+    let joinedWord = reversedWord.join("");
+    return joinedWord;
   }
 
-  stringReverse("Ayisha");
+  wordReverse("Lazaro");
 
 //   or
 
