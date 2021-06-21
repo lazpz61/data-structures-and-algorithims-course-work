@@ -1,6 +1,7 @@
 /*
 
-
+Write a recursive function called capitalizeFirst. Given an array of string, capitlize the first
+letter of each string in the array. 
 
 */
 
