@@ -21,7 +21,7 @@ Access -  O(1)
 // inserting at the beginnnig of an array is O(n)
 
 // removing from the beginning of an array is best to avoid if you can push and pop  
-// is always fasrer than shift and unshift. 
+// is always faster than shift and unshift. 
 
 
 
