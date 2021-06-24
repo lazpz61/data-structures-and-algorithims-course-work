@@ -1,0 +1,6 @@
+O(1) - this is the best case. we find what we are looking for right away.
+
+O(N) -  this is the worst case, we will have to loook for as many times there are index items in an array. 
+
+as N grows so does the time it takes. 
+

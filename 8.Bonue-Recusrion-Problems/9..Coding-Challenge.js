@@ -1,29 +1,30 @@
 /*
 
-
+Write a function called collectString which accepts an object and returns an array of all the values in the
+object that have a typeof string. 
 */
 
 
 
 // Helper Recursion Method
 
-function collectStrings(obj) {
-    var stringsArr = [];
+function collectStrings(object) {
+    let stringsArray = [];
  
-    function gatherStrings(o) {
-        for(var key in o) {
-            if(typeof o[key] === 'string') {
-                stringsArr.push(o[key]);
+    function gatherStrings(obj) {
+        for(let item in obj) {
+            if(typeof obj[item] === 'string') {
+                stringsArray.push(obj[item]);
             }
-            else if(typeof o[key] === 'object') {
-                return gatherStrings(o[key]);
+            else if(typeof obj[item] === 'object') {
+                return gatherStrings(obj[item]);
             }
         }
     }
  
     gatherStrings(obj);
  
-    return stringsArr;
+    return stringsArray;
 }
 
 
