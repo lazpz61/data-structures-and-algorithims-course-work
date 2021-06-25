@@ -1,0 +1,48 @@
+/*
+
+["Steele","Colt","Data Structures","Algorithms"].sort():
+
+["Algorithms","Colt","",""]
+
+
+The sort order is according to string unicode code points. So the sort method doesnt work well with numbers.
+
+Telling JavaScript how to Sort.
+
+
+- The built-in sort method accepts an optional comparator function.
+
+- you can use this comparator function to tell Javascript how you want it to sort.
+
+- The comparator looks at pairs of elemtns (a and b),
+determines their sort order based on the return value
+    -if it return a negative number, a should come before b
+    -if it return a positive number, a should come after b.
+    -if it returns 0, JS a and b are the same as far as the sort is concerned.
+*/
+
+let arrayOfNums = [35,5,43,7,22,3]
+
+function ascendSort(num1, num2){
+  return num1 - num2;
+}
+console.log(arrayOfNums.sort(ascendSort));
+
+function descendSort(num1, num2){
+  return num2 - num1;
+}
+
+console.log(arrayOfNums.sort(descendSort));
+
+
+// We can also sort by the length of the strings
+
+let words = ["Data Structures","Algorithms","Merge Sort","Bubble Sort","Radix"]
+
+function comparByLen(str1, str2){
+    return str1.length -  str2.length;
+}
+
+words.sort(compareByLen);
+
+

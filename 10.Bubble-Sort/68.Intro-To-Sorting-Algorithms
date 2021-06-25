@@ -1,0 +1,29 @@
+Elementary Sorting Algorithms
+
+Sorting is the process of rearranging the items ina  colleciton (ex, an array) so that
+the items are in some kind of order. 
+
+-sorting numbers from smallest to largest
+-sorting names alphabetically
+-sorting movies based on release year
+-sorting movies based on revenue
+
+function sort(arr){
+    return arr
+}
+
+sort([23,45,6,12,13])
+
+[6,12,13,23,45]
+
+- Sorting is an incredibly common task, so its good to know how it works.
+
+- there are many differen ways to sort things and diffeent techniques have their own
+advantages and disadvantages.
+
+- bubble sort
+-Selection sort
+-insertion sort
+- Understand why it is important to learnt hese simpler sorting Algorithms
+
+
