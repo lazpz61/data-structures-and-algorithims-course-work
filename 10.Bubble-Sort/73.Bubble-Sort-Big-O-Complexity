@@ -1,0 +1,4 @@
+the bubble sort big o notation is N^2
+
+when the array is already sorted it can be linear time and thats the best case. 
+
