@@ -10,6 +10,9 @@ back at full length of the array.
 
 */
 
+// The function below is the helper function that will merge and make the arrays that go
+// into it merge in ascending order. 
+
 function merge(arr1,arr2){
     let results = [];
     let i = 0;

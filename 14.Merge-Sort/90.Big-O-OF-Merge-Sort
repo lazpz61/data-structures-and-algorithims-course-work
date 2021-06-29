@@ -1,0 +1,20 @@
+Time Complexity (best) O(n log n)
+
+Time Complexity (avg) O(n log n)
+
+Time Complexity (worst) O(n log n)
+
+Space Complexity O(n)
+
+Why? 
+
+    : it has to be split into 2 peices, and that is many compositions.
+    The relationship here is that if n is 8 how many times do we have to split its 3
+    if n ia 32 we would have to do 5 splits so if n grows we have to do more splits. This is log n
+    log base 2 of n which is O(log n) decompositions. O(n. As n grows the merge algo has time complexity of O(n).
+    O(log n) and O(n) so it becomes O(n log n). 
+
+    for space complexity as we have more arrays we have more space because there are more arrays.  
+
+    
+
