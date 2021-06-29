@@ -1,0 +1,22 @@
+Bubble Sort -  Time Complexity  Best- O(n) time Complexity Average O(n^2) Time Complexity Worst
+O(n^2) Space Complexity - O(1).
+
+
+Insertion Sort - Time Complexity  Best- O(n) time Complexity Average O(n^2) Time Complexity Worst
+O(n^2) Space Complexity - O(1).
+
+
+
+
+Selection Sort -  Time Complexity  Best- O(n^2) time Complexity Average O(n^2) Time Complexity Worst
+O(n^2) Space Complexity - O(1).
+)
+
+
+Recap -
+
+- Sorting is fundamental.
+-Bubble sort, selection sort, and insertion sort are all roughly equivalent.
+-All have average time complexities that are quadratic.
+- we can do better , but we nee more complex algorithms!
+
