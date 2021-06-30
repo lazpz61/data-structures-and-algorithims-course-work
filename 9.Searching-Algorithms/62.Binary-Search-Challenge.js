@@ -12,7 +12,8 @@ Binary Search Pseudocode
     -if the value is too large, move the right pointer down. 
 -If you never find the value, return -1.
 
- */Attempt
+ */
+// Attempt
 
 function binarySearch(arr,val){
     let start = 0;
