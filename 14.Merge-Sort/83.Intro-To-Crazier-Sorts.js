@@ -11,7 +11,7 @@ Why learn this:
 /*
 
 -There is a family of sorting algorithms hat can imporve time complexity from O(n^2) to O(n log n)
--There is a tradeoff between efficiency and simploicty
+-There is a tradeoff between efficiency and simplicty
 - the more efficient algorithms are much less simple, and generally take longer to understand.
 
 */

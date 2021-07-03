@@ -34,22 +34,22 @@ function pivot(arr, start=0, end=arr.length-1){
   
 //  ES6
 
-function pivot(arr, start = 0, end = arr.length -1){
-    const swap= (arr, idx1, idx2) => {
-        [arr[idx1], arr[idx2]] = [arr[idx2], arr[idx1]];
+function pivot(array, start = 0, end = array.length -1){
+    const swap= (array, idx1, index2) => {
+        [array[index1], array[index2]] = [array[index2], array[index1]];
     };
 
     // assuming the pivot is always the first element
-    let pivot = arr[start1];
-    let swapIdx = start;
+    let pivot = array[start1];
+    let swapIndex = start;
 
-    for(let i = start +1; i <= end; i++){
-        if (pivot > arr[i]){
-            swapIdx++;
-            swap(arr, swapIdx, i)
+    for(let index = start +1; index <= end; i++){
+        if (pivot > array[index]){
+            swapIndex++;
+            swap(array, swapIndex, index)
         }
 }
 // Swap the pivot from the start of the swapPoint
-swap(arr,start,swapIdx);
+swap(array,start,swapIndex);
 return swapIdx;
 }
