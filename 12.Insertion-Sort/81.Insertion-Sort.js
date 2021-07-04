@@ -18,16 +18,16 @@ similar to bubble sort and selection sort, it is different in situation where it
 - Repeat until the array is sorted.
 
 */
-function insertionSort(arr){
-  for(let i = 1; i < arr.length; i++){
-      let currentVal= arr[i];
-      for (let j = i - 1; j >= 0 && arr[j] > currentVal; j--){
-        arr[j + 1] = arr[j];
-        arr[j+1] = currentVal;
+function insertionSort(array){
+  for(let index = 1; index < array.length; index++){
+      let currentVal= array[index];
+      for (let indexToCompare = index - 1; indexToCompare >= 0 && array[indexToCompare] > currentVal; indexToCompare--){
+        arr[indexToCompare + 1] = array[indexToCompare];
+        array[indexToCompare+1] = currentVal;
       }
-       console.log(arr);
+       console.log(array);
   }
-  return arr;
+  return array;
 }
 
 

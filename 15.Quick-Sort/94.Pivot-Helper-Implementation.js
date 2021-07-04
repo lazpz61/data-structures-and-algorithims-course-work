@@ -34,8 +34,10 @@ function pivot(arr, start=0, end=arr.length-1){
   
 //  ES6
 
+
+
 function pivot(array, start = 0, end = array.length -1){
-    const swap= (array, idx1, index2) => {
+    const swap= (array, index1, index2) => {
         [array[index1], array[index2]] = [array[index2], array[index1]];
     };
 

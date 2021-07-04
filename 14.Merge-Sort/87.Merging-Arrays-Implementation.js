@@ -11,29 +11,29 @@ Psuedocode -
     - Once we exhuast one array, push in all remaining values from the other array. 
 */
 
-function merge(arr1,arr2){
-    let results = [];
-    let i = 0;
-    let j = 0;
-    while(i < arr1.length && j < arr2.length){
-        if (arr2[j] > arr1[i]){
-            results.push(arr1[i]);
-            i++;
+function merge(array1,array2){
+    let mergedResults = [];
+    let firstArrayVal = 0;
+    let secondArrayVal = 0;
+    while(firstArrayVal < array1.length && secondArrayVal < array2.length){
+        if (array2[secondArrayVal] > array1[firstArrayVal]){
+            mergedResults.push(array1[firstArrayVal]);
+            firstArrayVal++;
         } else {
-            results.push(arr2[j])
-            j++;
+            mergedResults.push(array2[secondArrayVal])
+            secondArrayVal++;
         }
     }
-    while(i < arr1.length){
-        results.push(arr1[i]);
-        i++;
+    while(firstArrayVal < array1.length){
+        mergedResults.push(arr1[firstArrayVal]);
+        firstArrayVal++;
     }
-    while(j < arr2.length){
-        results.push(arr2[j]);
-        j++;
+    while(secondArrayVal < array2.length){
+        mergedResults.push(array2[secondArrayVal]);
+        secondArrayVal++;
     }
  
-    return results;
+    return mergedResults;
  }
  
  merge([1,10,50], [2,14,99,100])
