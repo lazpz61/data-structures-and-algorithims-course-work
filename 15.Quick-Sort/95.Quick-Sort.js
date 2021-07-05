@@ -8,35 +8,35 @@ on the subarray to the left of that index, and the subarray to the right of that
 - Your base case occurs when you consider a subarray with less than 2 elements. 
 */
 
-function pivot(arr, start=0, end=arr.length-1){
-    function swap(array, i,j){
-        let temp =array[i];
-        array[i] = array[j];
-        array[j] = temp;
+function pivot(array, start=0, end=array.length-1){
+    function swap(arrayItemToSwap, idx1, idx2){
+        let temporaryIndex =arrayItemToSwap[idx1];
+        arrayItemToSwap[idx1] = arrayItemToSwap[idx2];
+        arrayItemToSwap[idx2] = temporaryIndex;
     }
   
-  let pivot = arr[start];
+  let pivot = array[start];
   let swapIdx = start;
   
-  for(let i = start +1; i < arr.length; i++){
-      if (pivot > arr[i]){
+  for(let index = start +1; index < array.length; index++){
+      if (pivot > array[index]){
           swapIdx++;
-          swap(arr, swapIdx, i)
+          swap(array, swapIdx, index)
       }
      }
-     swap(arr,start,swapIdx)
+     swap(array,start,swapIdx)
      return swapIdx;
   }
   
-  function quickSort(arr, left = 0, right = arr.length -1){
+  function quickSort(arrayToSort, left = 0, right = arrayToSort.length -1){
       if(left < right){ // as soon as left and right are in the same index. 
-       let pivotIndex = pivot(arr, left, right);
+       let pivotIndex = pivot(arrayToSort, left, right);
        //left
-      quickSort(arr,left,pivotIndex-1);
+      quickSort(arrayToSort,left,pivotIndex-1);
       // right
-      quickSort(arr,pivotIndex+1,right);
+      quickSort(arrayToSort,pivotIndex+1,right);
       }
-      return arr;
+      return arrayToSort;
   }
   
   quickSort([4,6,9,1,2,3]);

@@ -25,7 +25,7 @@ function merge(array1,array2){
         }
     }
     while(firstArrayVal < array1.length){
-        mergedResults.push(arr1[firstArrayVal]);
+        mergedResults.push(array1[firstArrayVal]);
         firstArrayVal++;
     }
     while(secondArrayVal < array2.length){

@@ -11,7 +11,7 @@
 -Return the pivot index. 
 */
 
-function pivot(arr, start=0, end=arr.length-1){
+function pivot(arr, start=0, end= arr.length-1){
     function swap(array, i,j){
         let temp =array[i];
         array[i] = array[j];
@@ -21,7 +21,7 @@ function pivot(arr, start=0, end=arr.length-1){
   let pivot = arr[start];
   let swapIdx = start;
   
-  for(let i = start +1; i < arr.length; i++){
+  for(let index = start +1; index < arr.length; index++){
       if (pivot > arr[i]){
           swapIdx++;
           swap(arr, swapIdx, i)
@@ -42,10 +42,10 @@ function pivot(array, start = 0, end = array.length -1){
     };
 
     // assuming the pivot is always the first element
-    let pivot = array[start1];
+    let pivot = array[start];
     let swapIndex = start;
 
-    for(let index = start +1; index <= end; i++){
+    for(let index = start+1; index <= end; index++){
         if (pivot > array[index]){
             swapIndex++;
             swap(array, swapIndex, index)
@@ -53,5 +53,7 @@ function pivot(array, start = 0, end = array.length -1){
 }
 // Swap the pivot from the start of the swapPoint
 swap(array,start,swapIndex);
-return swapIdx;
+return swapIndex;
 }
+
+pivot([4,8,2,1,5,7,6,3]);
