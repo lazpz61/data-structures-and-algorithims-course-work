@@ -1,0 +1,10 @@
+The best case if O(log n)
+
+Worst case is to take the first item as pivot when the array is already sorted. 
+
+O(n) decompositions whcih results in O(n^2)
+
+when the pivot that is chosen is always either the minimum or maximum. 
+
+to get around it pivot around the middle element or a random item. 
+

@@ -9,10 +9,10 @@ on the subarray to the left of that index, and the subarray to the right of that
 */
 
 function pivot(array, start=0, end=array.length-1){
-    function swap(arrayItemToSwap, idx1, idx2){
-        let temporaryIndex =arrayItemToSwap[idx1];
-        arrayItemToSwap[idx1] = arrayItemToSwap[idx2];
-        arrayItemToSwap[idx2] = temporaryIndex;
+    function swap(arrayItemForSwap, idx1, idx2){
+        let temporaryIndex =arrayItemForSwap[idx1];
+        arrayItemForSwap[idx1] = arrayItemForSwap[idx2];
+        arrayItemForSwap[idx2] = temporaryIndex;
     }
   
   let pivot = array[start];

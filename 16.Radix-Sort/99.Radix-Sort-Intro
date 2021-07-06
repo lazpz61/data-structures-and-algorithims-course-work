@@ -1,0 +1,20 @@
+Radix is an integer sort
+
+Avg time complexity best time complexity is n log n. 
+
+
+Radix sort is a special sorting algorithm that works on lists of numbers.
+
+It neve rmakes comparisons between elemnts. 
+
+It exploits the fact that information about the size of a numebr is encoded in the number of digits. 
+
+more digits means a bigger number. 
+
+if there was a 4 digit number we have to split it 4 times, if it were 10 digit numbers then we have to
+rearrange them 10m times. 
+
+We will need a helper function for this. 
+
+Allows us to sort numbers really fast.
+
