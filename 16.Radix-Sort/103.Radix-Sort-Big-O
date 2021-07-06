@@ -1,0 +1,9 @@
+Radix Sort Big O
+
+Time Complextiy Best: O(nk) or O(n log n)
+Time Complextiy Avg: O(nk)
+Time Complextiy Worst: O(nk)
+Space Complextiy: O(n+k)
+
+n - length of array
+k - number of digits(average)
