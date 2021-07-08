@@ -1,0 +1,44 @@
+Common Strucutres:
+
+Binary Search trees
+Quees
+singly Linked Lists
+Undirected unweighted Graphs 
+Binary Heaps
+Directed GraphsHash Tables
+Doubly Linked Likst
+Stacks
+
+
+What do they do?:
+
+Data structures are collections of values, the relationships among them,
+and the functions or operation that can be applied to the data. 
+
+7 different methods to a singly linked lists.
+
+Why so many?:
+
+different data structure excel at differen things. Some are highly specialized, while others
+like arrays are more generally used. 
+
+Why care?:
+
+The more time you spend as a developer, the more likely you'll need to use one of these data structures.
+
+might be working with an api that returns a graph representation.
+
+You've already worked with many of them ukniwingly. DOM traversal is a tree.
+
+There all ecel in different situations. 
+
+Working with map/location data? : use a graph data structure. 
+
+If you need an ordered list with fast inserts/removals at the beginning and end?: use a linked list
+
+Web Scraping nested HTML? : Use a tree. 
+
+Need to write a scheduler? : Use a Binary Heap
+
+
+

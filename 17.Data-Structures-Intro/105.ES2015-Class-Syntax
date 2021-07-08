@@ -1,0 +1,19 @@
+
+
+-Explain what a class is
+-understand how Javascript implements the idea of class
+-define terms like abstratctio, encapsulation, and polymorphism
+- use ES2015 classes to implement data structures 
+
+
+What is a class?
+
+ Blueprint for creating objects with pre-defined properties and methods. 
+
+We can instantiate patterns and many object using the bueprint in the class. 
+similar to arrays in JS. Being able to instantiate objects based on the classes made. 
+
+
+Why Learn?
+
+We're going to implement data structures as classes. 
