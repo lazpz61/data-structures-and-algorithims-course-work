@@ -4,7 +4,7 @@ Pivot Helper
 
 
 
--In order to implement merge sort, its useful to first implement a function responsible for arranging
+-In order to implement quick sort, its useful to first implement a function responsible for arranging
 element in an array on either side of a pivot.
 
 - Given an array, this helper function should designate an element as the povit.
