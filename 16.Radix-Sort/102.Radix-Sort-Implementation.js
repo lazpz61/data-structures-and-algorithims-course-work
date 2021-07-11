@@ -3,12 +3,10 @@
 function getDigit(number, index) {
     return Math.floor(Math.abs(number) / Math.pow(10,index)) % 10;
 }
-
 function digitCount(number) {
     if (number === 0) return 1;
     return Math.floor(Math.log10(Math.abs(number)))+1;
 }
-
 function mostDigits(numbers){
     let maximumDigits = 0;
     for (let iteratedNum = 0; iteratedNum < numbers.length; iteratedNum++){
@@ -16,7 +14,6 @@ function mostDigits(numbers){
     }
     return maximumDigits;
 }
-
 function radixSort(numbers){
     let maxDigitCount = mostDigits(numbers);
     for (let iteratedIndex =0; iteratedIndex < maxDigitCount; iteratedIndex++){
