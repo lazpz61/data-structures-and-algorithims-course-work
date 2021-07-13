@@ -10,4 +10,4 @@ class Student {
 }
 
 let firstStudent = new Student("Lazaro", "Perez")
-let secondStudent = new Student("Alberis", "Perez")
+let secondStudent = new Student("Jamil", "Ahmed")
