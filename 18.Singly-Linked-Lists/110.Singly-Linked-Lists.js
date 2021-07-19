@@ -15,6 +15,26 @@ a bunch of nodes pointing to another a chain of data points the points to anothe
 */
 
 
+// Comparing and Contrasting with Arrays
+
+// Lists
+/*
+
+- Do not have indexes
+-Connected via Nodes with a next pointer
+- Random Access is not allowed
+
+
+*/
+
+//Arrays
+/*
+-Indexed in Order!
+-Insertion and deletion can be expensive.
+-Can quickly be accessed at a specific index.
+*/
+
+
 class Node{
     constructor(value){
         this.value = value,

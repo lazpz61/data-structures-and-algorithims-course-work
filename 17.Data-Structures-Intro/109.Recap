@@ -1,0 +1,9 @@
+- Classes are blueprints that when created make objects known as instances.
+
+- Class are created with the new keyword.
+
+- The Constructo function is a special function that gets run when the class is instantiated.
+
+- Instance methods can be added to classses similar to methods in objects.
+
+- Classm methods can be added using the static keyword. 
