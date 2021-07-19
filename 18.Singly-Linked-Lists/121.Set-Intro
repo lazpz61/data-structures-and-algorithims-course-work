@@ -1,0 +1,13 @@
+Set : Changin the value of a node based on it's position in the Linked List.
+
+accepts a position and a value to add to that position in replacement. 
+
+Set Pseudocode:
+
+- This function should accept a value and an index
+- Use you get function to find the specific node.
+- If the node found, return false.
+- If the node is foundm set the value of that node to be the value passed to the function
+and return true.
+
+
