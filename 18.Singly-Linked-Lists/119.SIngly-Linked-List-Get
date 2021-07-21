@@ -1,0 +1,13 @@
+Get :  this takes number or index or position, and returns the number in that position. 
+
+Retrieving a node by its position in the Linked list. 
+
+The function goes through each linked list 
+
+Get Pseudocode:
+
+- The function should accept an index.
+- If the index is less than zero or greater than or equal to the length of the list, return null.
+- Loop through the list until you reach the index and return the node at that specific index. 
+
+
