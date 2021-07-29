@@ -1,0 +1,16 @@
+Adding a specific node in a linked list at a specific position. 
+
+it takes an index and a value and instead of updating an existing node its going to insert a new node at
+whatever position we specify. 
+
+Insert Pseudocode
+
+- If the index is less than zero or greater than the length return zero.
+- If the index is the same as the length push a new node to the end of the list. 
+- If the index is zero, unshift a new node to the start of the list. 
+- Otherwise, using the get method, access the node at the index minus 1.
+- Set the next property on that node to be the new node. 
+- Set the next property on the new node to be the previous node. 
+- Increment the length.
+- Return true
+

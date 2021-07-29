@@ -1,0 +1,15 @@
+Doubly Linked List -  we add pointers to the previous node and the next node.
+
+Points in two directions. Large ramification and the methods.
+
+Same as Singly Linked List except that it points to both the previous and the next node. 
+
+We have to account for two pointers. 
+
+This takes up more memory.
+
+More Memory === More Flexibility.
+
+it's almost alwasya a tradeofff!
+
+
