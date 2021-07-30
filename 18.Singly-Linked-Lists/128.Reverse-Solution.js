@@ -1,6 +1,5 @@
 /*
 
-Remove Pseudocode
 
 Reverse Pseudocode
 

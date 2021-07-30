@@ -1,0 +1,13 @@
+Shifting: Removing a node from the beginning of the Doubly List. 
+
+Shifting Pseudocode:
+
+- If length is 0, return undefined.
+- Store the current head property in a variable (we'll call it old head).
+- If the length is 1
+    -set the head to be null
+    -set the tail to be null.
+- Update the head to be the next of the old head
+- Set the head's previous property to null.
+- Decrement the length.
+- Return old head. 
