@@ -11,7 +11,7 @@ Unshifting Pseudocode:
 -Increment the length.
 */
 
-unshift(value){
+function unshift(value) {
     let newNode = new Node(value);
     if(this.length === 0){
         this.head = newNode;
