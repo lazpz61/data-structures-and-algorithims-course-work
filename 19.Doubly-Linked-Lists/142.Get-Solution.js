@@ -8,21 +8,25 @@
     - Return the node once it is found.
 */
 
-get(index){
+function get(index){
     if(index < 0 || index >= this.length) return null;
-    let count = 0;
-    let current = this.head;
+    let count, current;
+    if(index <= this.length/2){
+    count = 0;
+    current = this.head;
     while(count !=index){
         current = current.next;
         count++
      }
+    
     } else {
-    count =  this.length - 1;
-    current = this.tail;
-    while(count != index){
-        current = current.previous;
-        count--;
+        count = this.length -1;
+        current = this.tail;
+        while(count !== index){
+            current = current.previous;
+            count--;
+        }
     }
-}
-return current;
-}
+     return current;
+   
+} 
