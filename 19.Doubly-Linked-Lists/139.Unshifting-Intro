@@ -1,4 +1,4 @@
-Unshifting : will ad a node to the beginning of the doubly linked list. 
+Unshifting : will add a node to the beginning of the doubly linked list. 
 
 Unshifting Pseudocode:
 - Crreate a new node with the value passed to the function

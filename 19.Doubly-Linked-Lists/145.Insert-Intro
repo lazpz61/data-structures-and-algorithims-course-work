@@ -1,0 +1,16 @@
+Insert : Adding a node ina  doubly linked list by a certain position.
+
+
+utilize the get method to find the appropriate place to start finding the place to insert the
+value into the doubly linked list. 
+
+Insert Pseudocode:
+
+-If the index is less than 0 or greater than or equal to the length return false.
+- If the index is 0, unshift.
+- If the index is the same as the length, push
+-use the get method to access the index-1
+- Set the next and previous properties on the correct nodes to link everything together.
+- Increment the length.
+- Return True. 
+
