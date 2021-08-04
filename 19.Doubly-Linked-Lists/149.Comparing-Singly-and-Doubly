@@ -1,0 +1,19 @@
+Big O of Doubly Linked Lists
+
+
+insertion - O(1)
+Removal - O(1)
+Searching -  O(N)
+Access - O(N)
+
+Technically Searching is O(N/2) still on O(N)
+
+Doubly Linked Lists are similar to singly linked list except that there is an additional pointer
+to previous nodes. 
+
+Representing a browser history uses a singly linked list. 
+
+Better than sinlgy linked lists for finding nodes and can be done in half the time .
+
+However they do take up more memory considering the extra pointer. 
+

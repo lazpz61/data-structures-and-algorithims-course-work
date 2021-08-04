@@ -8,7 +8,7 @@
 
 function  set(index, value){
     let foundNode = this.get(index);
-    if(foundNode != null){
+    if(foundNode !== null){
         foundNode.value = value;
         return true;
     }

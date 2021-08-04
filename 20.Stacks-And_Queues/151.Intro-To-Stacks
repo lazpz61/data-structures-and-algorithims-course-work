@@ -1,0 +1,34 @@
+Stacks: 
+What is a stack:
+Understand use cases for a stack::
+Implement Operations ona  stack
+
+
+What is a Stack?
+
+- Data collecetions, and abstract data structure, collection of data, and needs to abide by a LIFO principle.
+
+Lifi: the last element added to a stack needs to be the first one removed.
+
+How its used: Removing the one that was just added.
+
+This is done just like the Call Stack
+
+function factorial(x){
+    if (x === 0)  reutrn 1;
+    return x * factorial(x-1);
+}
+factorial(4);
+
+this call stack is done recursively through each call of the function. 
+
+
+Where are Stacks used:
+
+- Managing Function invocations.
+- Undo/ Redo
+- Routing( the history object) is treadt like a stack
+- Some algorithms use Stacks and Ques to store a history of things to come back to what we need.
+
+More than one way to implement a stack, Using Javascript arrays. then linked list implementation. 
+
