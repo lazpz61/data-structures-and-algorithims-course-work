@@ -1,4 +1,4 @@
-Remove: Removing a node in a coubly linked List by a certain postiion.
+Remove: Removing a node in a doubly linked List by a certain postiion.
 
 Remove Pseudocode:
 - If the index is less than 0 or greater than or equal to the length return undefined.
