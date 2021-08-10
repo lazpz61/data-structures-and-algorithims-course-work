@@ -1,0 +1,27 @@
+Queues:
+
+Define
+Use Cases
+Implement Data Structure
+
+What is a Queues?
+
+- Removie data in and out, adding and removing. 
+- FIFO -  First in First Out. 
+
+
+Where have we seent this before?
+
+- Queues exist everywhere!
+
+- Background tasks.
+- Uploading resources
+- Printing/ Task processing.
+
+We can implement with an array or a queue class.
+
+EnQue - inteface to add something in
+DeQuee - used to remove something out. 
+
+
+
