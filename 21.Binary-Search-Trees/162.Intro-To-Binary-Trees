@@ -1,0 +1,18 @@
+Kinds of Trees:
+
+- Trees
+- Binary Trees
+ -  special condition : each node at most can have two children. Cannot have three.
+
+
+- Binary Search Trees (excels at searching)
+    - The Root node can only have up to 2 child nodes. 
+    - at most have two children per node. Sorted in an order. BST used to store data that can be compared.
+    - can be strings or other data types to compare things.
+    - if we take any node on the tree any items that is less then the root is to the left, any
+        number greater is located tot he right of the root. Then its repeatd in each child node. 
+    - Every Node to the right of a parent node is always less than the parent.
+    - Every node to the right of a parent node is alwasy greater than the parent. 
+
+
+

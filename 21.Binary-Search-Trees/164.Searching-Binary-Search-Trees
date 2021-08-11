@@ -1,0 +1,11 @@
+BST : why are they used
+
+It makes it easy to look things up, and insert thing, and find a place for a node.
+The search becomes really qucik. 
+
+it makes a comparison of the date presented and take less time to find the data that you need to find. 
+
+if it wasnt built like this you'd need to review every single node and that will take a long time. 
+
+Compare and go to the right or the left. 
+
