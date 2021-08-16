@@ -1,8 +1,6 @@
+/*
+
 DFS  -  Post Order
-
-Post Order: Visit a node after we have looked at
-Traverse the entire branches all the way to the left and only visit a node once there is no more left and right nodes. 
-
 
 - Create a variable to store the value of nodes visited.
 - Store the root of the BST in a variable called current.
@@ -15,3 +13,15 @@ Traverse the entire branches all the way to the left and only visit a node once 
     - Invoke the helper function with the current variable.
 - Return the arrray of values.
 
+*/
+
+function DepthFirstSearchPostOrder() {
+    let data = [];
+    function traverse(node){
+        if(node.left) traverse(node.left);
+        if(node.right) traverse(node.right);
+        data.push(node.value);
+    }
+    traverse(this.root);
+    return data;
+}
