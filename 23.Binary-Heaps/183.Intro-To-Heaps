@@ -1,0 +1,37 @@
+Binary Heaps : 
+
+Whatis a Binary Heap?
+
+- Very similar to a binary search tree, but with some different rules!
+
+- Max Binary Heap -  parent nodes are always larger than child nodes.
+
+- MinBinary Heap - Parent nodes are alwasy smaller than child nodes. 
+
+No order for the left and to the right, child they are smaller than their parent. 
+
+Max Binary Heap :
+
+- Each parent has at most two child nodes.
+- The Value of each parent node is always great than its child nodes.
+- In a max binary heap the parent is greater than the children, but there are no guarantees between sibling nodes.
+- A binary Heap is as compact as possible. All the children of each node are as full as they can be
+    and children are filled out first.
+- there is no implied ordering between the siblings.
+
+The Min Binary Heap
+
+is the inverse of the Max Binary Heap.
+
+Why care about heaps?
+
+Binary Heaps are used to implement Priority Queues, which are very commonly used data structures.
+
+They are also used in graph traversal algorithms. 
+
+
+
+
+
+
+
